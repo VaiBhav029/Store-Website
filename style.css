@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.nav_style{
+  background: #fff;
+  box-shadow: 0 10px 30px 0 rgba(138,155,165,0.15);
+}
+.navbar-nav li a{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 16px;
+	letter-spacing: 2px;
+	color: #fff;
+	position: relative;
+}
+.navbar-nav li a:before{
+	content: '';
+	position: absolute;
+	top:100%;
+	bottom:30%;
+	width: 0%;
+	height:3px;
+	background: SlateBlue;
+	transition: all 0.3s linear;
+}
+.navbar-nav li a:hover:before{
+	width: 80%;
+}
+
+.h_text{
+	margin-top: 60px;
+	text-align: center;
+}
+.visit,.call{
+width: 160px;
+height: 40px;
+font-size: 20px;
+text-transform: capitalize;
+border: none;
+outline: none;
+transition: all 0.3s linear;
+}
+.visit{
+	background: SlateBlue;
+}
+.visit:hover{
+	background: white;
+	border: 1px solid SlateBlue;
+}
+.call:hover{
+	background: SlateBlue;
+}
+.ab_img{
+	width: 400px;
+	height: 400px;
+	
+}
+.main_title {
+	font-weight: 600;
+	font-size: 45px;
+	color: #000;
+	text-transform: capitalize;
+	text-align: center;
+	margin-top: 20px;
+}
+.p_text{
+	margin-top: 50px;
+  color: grey;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+.card:hover{
+ background: #fff;
+  box-shadow:  0 10px 30px 0 SlateBlue;
+  transition: all 0.3s linear;
+}
+.bt{
+	border:1px solid SlateBlue!Important;
+	background: white!Important;
+}
+.bt:hover{
+	background:SlateBlue!Important;
+}
+
+
+.con{
+	width: 30%;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 30px;
+	background: #f6f6f6;
+	transition: all 0.2s linear;
+}
+.con:hover{
+	background: white;
+	filter: drop-shadow(2px 0px 8px rgba(0,0,0,0.18));
+}
+.con:hover .fa{
+	color: SlateBlue;
+}
+.icons{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.icons a{
+text-decoration: none;
+color: white;
+
+font-size: 15px
+}
+.icons a i{
+	margin-bottom: 15px;
+}
+
+
+.fp {
+	line-height: 50px;
+	width: 100%;
+	color: white
+}
+.fp p{
+	margin: 0;
+}
+.fai{
+	background: white;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+.fa-facebook:hover{
+color: #3498DB;
+}
+.fa-whatsapp:hover{
+color: #45CE30;
+}
+.fa-instagram:hover{
+color: #BB2CD9;
+}
+
+@media (max-width: 998px){
+	.navbar-nav{
+    margin-top: 30px;
+    text-align: center;
+	}
+	.navbar-nav li a:hover:before{
+	width: 0%;
+	}
+	.card{
+		margin-left: 30px;
+		margin-bottom: 20px
+	}
+	iframe{
+		width: 330px!Important;
+		height: 200px!Important; 
+
+	}
+}
