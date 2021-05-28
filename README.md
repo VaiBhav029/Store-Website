@@ -1,3 +1,4 @@
+
 # Store Website
 ## A simple html,css and bootsrap website
 
@@ -13,3 +14,6 @@
 
 
 ![store2](https://user-images.githubusercontent.com/54659596/120019551-3830ef80-c006-11eb-9f4f-9590a05d4f66.png)
+
+
+![store3](https://user-images.githubusercontent.com/54659596/120019852-9231b500-c006-11eb-9117-4db359694b20.png)
